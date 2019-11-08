@@ -35,7 +35,7 @@ componentDidMount(){
 render(){
   return (
     
-      <div className="container" style = {{ marginTop: "50px"}}>
+    <div className="container" style = {{ marginTop: "50px"}}>
       <div className="row">
         <div className="col">
         <div className="card">
@@ -53,28 +53,28 @@ render(){
 
         <form>
         <div className="row">
-        <div className="col-md-3">
+        <div className="col">
           <div className="form-group">
             <label>B/L Number</label>
             <input type="text" className="form-control" placeholder="B/L Number"/>
           </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="co">
           <div className="form-group">
             <label>From</label>
             <input type="text" className="form-control" placeholder="From"/>
           </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col">
           <div className="form-group">
             <label>To</label>
             <input type="text" className="form-control" placeholder="To"/>
           </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col">
           <div className="form-group">
             <label>Depo</label>
             <input type="text" className="form-control" placeholder="Depo"/>
@@ -181,12 +181,12 @@ render(){
           <div className="row">
             {/*isi card kanan row 1*/}
             <div className="col-md-4">
-             <p>Platform Name</p>
+             <p className="text-primary">Platform Name</p>
              <p className="card-title"> {booking.idDetilBooking} Booking </p>
             </div>
             {/*isi card kanan row 2*/}
             <div className="col-md-5">   
-              <p>3 Trucks</p>
+              <p className="text-primary">3 Trucks</p>
               <p className="card-title"> Rp {booking.hargaPenawaran},- </p>
             </div>
             {/*isi card kanan row 3*/}
